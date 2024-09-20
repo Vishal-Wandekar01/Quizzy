@@ -11,9 +11,10 @@ public class Quiz {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Integer id;
     private String title;
 
     @ManyToMany  //quiz with multiple question, that's why this mapping is important
+  //  @JoinColumn(name = "questions_id", referencedColumnName = "id")
     private List<Question> questions;
 }
