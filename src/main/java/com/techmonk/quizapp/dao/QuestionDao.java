@@ -1,6 +1,6 @@
 package com.techmonk.quizapp.dao;
 
-import com.techmonk.quizapp.Question;
+import com.techmonk.quizapp.model.Question;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,6 +1,6 @@
 package com.techmonk.quizapp.controller;
 import java.util.List;
-import com.techmonk.quizapp.Question;
+import com.techmonk.quizapp.model.Question;
 import com.techmonk.quizapp.service.QuestionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

@@ -1,6 +1,6 @@
 package com.techmonk.quizapp.service;
 
-import com.techmonk.quizapp.Question;
+import com.techmonk.quizapp.model.Question;
 import com.techmonk.quizapp.dao.QuestionDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

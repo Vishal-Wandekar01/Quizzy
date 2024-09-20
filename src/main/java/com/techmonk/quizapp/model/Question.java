@@ -1,4 +1,4 @@
-package com.techmonk.quizapp;
+package com.techmonk.quizapp.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
